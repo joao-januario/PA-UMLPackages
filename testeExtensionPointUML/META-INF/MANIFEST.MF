@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ext
+Bundle-SymbolicName: testeExtensionPointUML;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: pt.iscte.pidesco.demo.ext
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.swt;bundle-version="3.108.0",
+ org.eclipse.zest.core;bundle-version="1.5.300",
+ org.eclipse.zest.layouts;bundle-version="1.1.300",
+ pt.iscte.pidesco.umlPackage;bundle-version="1.0.0"
+Import-Package: org.osgi.framework

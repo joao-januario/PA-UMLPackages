@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="color_scheme" name="color_scheme" schema="schema/color_scheme.exsd"/>
+
+   <extension
+         id="TreeView"
+         name="Tree View"
+         point="pt.iscte.pidesco.view">
+         
+      <view
+            class="project.TreeView">
+		
+      </view>
+    	
+   </extension>
+	
+</plugin>

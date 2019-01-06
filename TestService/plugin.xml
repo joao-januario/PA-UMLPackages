@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="id2"
+         name="name"
+         point="pt.iscte.pidesco.view">
+      <view
+            class="testservice.asfa">
+      </view>
+   </extension>
+
+</plugin>
