@@ -8,4 +8,4 @@ TestService has an example of how to utilize the services provided by this proje
 
 testExtensionPointUML has an example of how to create an extension point to customize the UI
 
-UML_Package_project contains the project
+UML_Package_project contains the project and a listener to the projectBrowser plugin to make the two projects interact with each other
